@@ -1,0 +1,74 @@
+* {
+    color: brown;
+    background-color: black;
+}
+
+.films {
+    margin-bottom: 20px;
+    /* color: brown; */
+}
+
+#btn {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 200%;
+    width:320px;
+    color: white;
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.poster {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+    align-items: start;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.info {
+    width: 320px;
+}
+
+.active {
+    background-color:orange;
+    border: 1px solid orange;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.ramka {
+    border: 2px solid brown;
+    border-radius: 20px;
+    /* background-color: beige; */
+    padding: 20px;
+    width: fit-content;
+}
+
+
+/* ---------------------------------------- */
+.likes {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.like1 {
+    display: flex;
+    flex-direction: column;
+}
